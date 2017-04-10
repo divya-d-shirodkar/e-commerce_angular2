@@ -1,0 +1,50 @@
+/*@import 'node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+*/
+
+.shopping-cart {
+	cursor: pointer;
+	float: right;
+}
+
+.container {	
+    margin-top: 55px;
+}
+
+.login__container {
+	width: 70%;
+	margin: 10% auto 0;
+}
+   
+.login-form {
+	border: 1px solid lightgray;
+	padding: 10%;
+}
+
+.products__container {
+	padding: 5% 0%;
+}
+
+.products__container input {
+	margin: 2% 0%;
+    padding: 1%;
+}
+
+.product-details__container{
+	padding: 5% 0%;
+}
+
+.continue-shopping__button {
+	padding: 2% 2%;
+}
+
+.error {
+	color: red;
+    padding: 0px 2%;
+}
+
+.inc-quantity, .dec-quantity {
+	padding: 2%;
+	cursor: pointer;
+}

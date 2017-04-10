@@ -1,0 +1,8 @@
+<div class="products__container">
+    <input type="text" [(ngModel)]="queryString" placeholder="Search to type">
+    <div class="row">
+        <div class="col-sm-6" *ngFor="let product of products | SearchFilterPipe : queryString"  [routerLink]="['/product', product.id]">
+      		<product [product]="product"></product>
+    	</div>  
+    </div>
+</div>

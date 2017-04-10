@@ -1,0 +1,18 @@
+ 
+<div class="row product-details__container">
+    <div class="col-md-12">
+        <img style='float:left;margin-right:20px;' src="{{product.image}}" />
+        <div>
+        	<h4>{{product.name}}</h4>
+		    <p>{{product.description}}</p>
+		    <p>{{product.price}}</p>
+		    <p>quantity: 
+                <counter [product]="product"></counter>
+            </p>
+		    <button class="btn btn-primary" (click)="AddedToCart(product)">Add to cart</button>
+        </div>
+    </div>
+    <div class="col-md-12 continue-shopping__button">
+    	<button class="btn btn-primary" [routerLink]="['/landingPage']">Continue Shopping</button>
+	</div>
+</div>
